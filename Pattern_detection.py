@@ -11,7 +11,7 @@ sentence = (sentences[2])
 
 #Deteccion de patrones de lenguaje
 
-patterns = [[{"POS": "ADJ"},{"POS":"NOUN"}],[{"POS":"NOUN"}, {"POS":"ADJ"}]]
+patterns = [[{"POS": "ADJ"},{"POS":"NOUN"}]]#,[{"POS":"NOUN"}, {"POS":"ADJ"}]]
 
 verbs_phrases = textacy.extract.token_matches(doc, patterns=patterns)
 
