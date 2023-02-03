@@ -3,8 +3,6 @@ import csv
 import json
 
 
-import json
-
 with open('suicide_corpus.json', 'r') as file:
     dic_data = json.load(file)
 
@@ -40,7 +38,6 @@ with open("sentences.csv", "w", newline="") as f:
 
 
 
-    
 
 
 
